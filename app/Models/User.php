@@ -13,8 +13,15 @@ class User extends Authenticatable
 
     // Mass assignable attributes
     protected $fillable = [
-        'name',
-        'email'
+        'name', 'email', 'password',
+    ];
+
+    protected $hidden = [
+        'password', 'remember_token',
+    ];
+
+    protected $casts = [
+        'email_verified_at' => 'datetime',
     ];
 
     /**
