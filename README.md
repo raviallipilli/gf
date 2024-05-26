@@ -44,7 +44,7 @@ The main requirements of the project are as follows:
 ### Prerequisites
 
 - PHP version 8.1
-- Laravel version 10.10
+- Laravel version 8.83.27
 - XAMPP or WAMP server
 
 -----------------------------------------------------------------------------------------
@@ -185,6 +185,15 @@ For reference use \database\migrations\ folders . I have also included the sql f
 
 1. Access the provided endpoints using the appropriate HTTP methods.
 2. For authenticated endpoints, include the authentication token in the request headers (e.g., Bearer Token in Postman).
+
+-----------------------------------------------------------------------------------------
+
+## Features
+
+- Api Endpoints
+- Front-end views
+- Login & Registration
+- Covers Unit tests
 
 -----------------------------------------------------------------------------------------
 
